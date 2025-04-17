@@ -1,32 +1,67 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
+## Build results
+[Bb]in/
+[Oo]bj/
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+*.VC.db
+*.VC.opendb
+*.idb
+
+## Temporary files
+*.tmp
+*.user
+*.userosscache
+*.suo
+*.sdf
+*.cache
+*.dbmdl
+*.aps
+*.ncb
+*.opendb
+*.ipch
+
+## Build logs
+*.log
+*.htm
+*.htm?
+
+## VS folder
+.vs/
+
+## Backup and autosave
+*~
+*.bak
+
+## CMake (if you use it)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+## Don't ignore project files
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+!*.vcxproj.user      
+
+## SDL or external library folders 
+SDL2-*/build/
+external/
+
+## Misc
+*.zip
+*.7z
+*.tar
+*.gz
+*.rar
+*.log
+x64/
+
+# Ignore .DS_Store (macOS), Thumbs.db (Windows)
+.DS_Store
+Thumbs.db
